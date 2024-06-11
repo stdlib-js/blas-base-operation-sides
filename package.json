@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/blas-base-operation-sides",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "BLAS operation sides.",
   "license": "Apache-2.0",
   "author": {
