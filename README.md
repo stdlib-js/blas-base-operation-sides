@@ -52,13 +52,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import operationSides from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-operation-sides@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-base-operation-sides/tags). For example,
+
+```javascript
 import operationSides from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-operation-sides@v0.0.3-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { enum } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-operation-sides@v0.0.3-deno/mod.js';
+import { enum } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-operation-sides@deno/mod.js';
 ```
 
 #### operationSides()
@@ -97,7 +102,7 @@ The output array contains the following types:
 
 ```javascript
 var contains = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-contains' ).factory;
-import operationSides from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-operation-sides@v0.0.3-deno/mod.js';
+import operationSides from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-operation-sides@deno/mod.js';
 
 var isOperationSide = contains( operationSides() );
 
