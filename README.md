@@ -52,13 +52,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import operationSides from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-operation-sides@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-base-operation-sides/tags). For example,
+
+```javascript
 import operationSides from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-operation-sides@v0.0.3-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { enum } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-operation-sides@v0.0.3-esm/index.mjs';
+import { enum } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-operation-sides@esm/index.mjs';
 ```
 
 #### operationSides()
@@ -102,7 +107,7 @@ The output array contains the following types:
 <script type="module">
 
 var contains = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-contains' ).factory;
-import operationSides from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-operation-sides@v0.0.3-esm/index.mjs';
+import operationSides from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-operation-sides@esm/index.mjs';
 
 var isOperationSide = contains( operationSides() );
 
