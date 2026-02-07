@@ -54,7 +54,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-operationSides = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-operation-sides@umd/browser.js' )
+operationSides = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-operation-sides@v0.0.3-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -66,7 +66,7 @@ var operationSides = require( 'path/to/vendor/umd/blas-base-operation-sides/inde
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-operation-sides@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-operation-sides@v0.0.3-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
